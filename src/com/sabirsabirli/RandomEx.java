@@ -14,7 +14,6 @@ public class RandomEx {
         System.out.println("Let's us begin the and go on " + name);
         int rnd = (int) (Math.random() * 100);
         System.out.println("Random number which is generated = " + rnd);
-
         while (true) {
             System.out.println("Please enter the number");
             number = scn.nextInt();
@@ -30,9 +29,6 @@ public class RandomEx {
                     System.out.println("Your number is too small. Please, try again.");
                 }
             }
-
         }
-
-
     }
 }
